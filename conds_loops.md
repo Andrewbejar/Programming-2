@@ -170,6 +170,7 @@ When used in a loop, this statement causes the current loop iteration to end.
 * In a *while* or *do... while* loop, the rest of the body is skipped, and execution moves on to the *test condition*
 * In a *for* loop, the rest of the loop body is skipped, and execution moves on to the *iterative statement*
 
+Example:
 
     for(i=1; i<=10; i++)
     {
@@ -181,7 +182,7 @@ When used in a loop, this statement causes the current loop iteration to end.
 
 Output: 1 3 5 7 9
 
-####References 
-[Selective Statements](https://www.cs.fsu.edu/~myers/c++/notes/control1.html)
-[Iterative Statements](https://www.cs.fsu.edu/~myers/c++/notes/control2.html)
-[Break and Continue](https://www.cs.fsu.edu/~myers/c++/notes/control2.html)
+#### References 
+* [Selective Statements](https://www.cs.fsu.edu/~myers/c++/notes/control1.html)
+* [Iterative Statements](https://www.cs.fsu.edu/~myers/c++/notes/control2.html)
+* [Break and Continue](https://www.cs.fsu.edu/~myers/c++/notes/control2.html)
