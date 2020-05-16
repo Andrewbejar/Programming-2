@@ -3,10 +3,14 @@
 * **Selective Control**
 * **Iterative Control**
 
-## **Sequential Control
-> 
+## **Sequential Control**
+> int main()
+>
+> {
+>
 > statements
 >
+> }
 
 ## **Selective Control Structures**
 
