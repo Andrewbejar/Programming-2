@@ -180,3 +180,8 @@ When used in a loop, this statement causes the current loop iteration to end.
     }
 
 Output: 1 3 5 7 9
+
+####References 
+[Selective Statements](https://www.cs.fsu.edu/~myers/c++/notes/control1.html)
+[Iterative Statements](https://www.cs.fsu.edu/~myers/c++/notes/control2.html)
+[Break and Continue](https://www.cs.fsu.edu/~myers/c++/notes/control2.html)
