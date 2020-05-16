@@ -8,20 +8,19 @@ int main()
 {
 int x, y;
 
-printf("Input an integer value\n");
+printf("Input two integer values\n");
 
 scanf("%d %d", &x, &y);
 
 if (x == y)
-printf("x = y\n");
+printf("%d = %d\n", x, y);
 
 else if(x > y)
-printf("x > y\n");
+printf("%d > %d\n", x, y);
 
 else
-printf("x < y\n");
+printf("%d < %d\n", x, y);
 
 return 0;
 
 }
-

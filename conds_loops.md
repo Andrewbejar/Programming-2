@@ -9,7 +9,6 @@ Sequential execution of code statements (one line after another) -- following a 
 
     int main()
     {
-
         statements
     }
 
@@ -25,6 +24,7 @@ Used for decisions -- choosing between 2 or more alternative paths.
 ### **If Statements**
 ### Simple Conditional
 #### **If statement**
+
     if(expression)
 	statements
 
@@ -92,7 +92,7 @@ There is a special operator known as the conditional operator that can be used t
 How it works: 
 * The test_expression is evaluated for true/false value.
 * If the test expression is true, the operator returns the true_expression
-* If the operator is flase, the operator returns the false_expression
+* If the operator is false, the operator returns the false_expression
 
 ## **Iterative Control Structures**
 Also repition control structures. Used for looping, i.e.  repeating a piece of code multiple times in a row.
