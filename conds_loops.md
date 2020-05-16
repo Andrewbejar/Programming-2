@@ -32,7 +32,7 @@
 >> statements
 
 ### Multiple Conditional
-* **If... else if... else statement***
+* **If... else if... else statement**
 > if(expression)
 >
 >> statements
