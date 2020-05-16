@@ -1,9 +1,12 @@
-**For practicity, we will concentrate on showing the examples specifically for the C programming language.**
-
 # *Control Structures*
-* **Sequential Control**
+* **Sequential Control:** 
 * **Selective Control**
 * **Iterative Control**
+
+## **Sequential Control
+> 
+> statements
+>
 
 ## **Selective Control Structures**
 
@@ -12,31 +15,31 @@
 * **If statement**
 > if(expression)
 >
->>  statement
+>>  statements
 
 ### Double Conditional
 * **If... else statement**
 > if(expression)
 >
->> statement
+>> statements
 >
 > else
 >
->> statement
+>> statements
 
 ### Multiple Conditional
 * **If... else if... else statement***
 > if(expression)
 >
->> statement
+>> statements
 >
 > else if(expression)
 >
->> statement
+>> statements
 >
 > else
 >
->> statement
+>> statements
 
 ### Nested Conditional
 > if(expression)
@@ -98,7 +101,7 @@
 > for(initial statement; test expression; increment/decrement)
 >
 > {
->> statement
+>> statements
 >
 > }
 >
@@ -113,6 +116,7 @@
 >
 >>> statements
 >
+>> statements
 >> }
 >
 > }
@@ -131,7 +135,7 @@
 >
 > {
 >
->> expression
+>> statements
 >
 > }
 > while(expression);
