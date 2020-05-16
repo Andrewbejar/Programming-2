@@ -11,51 +11,81 @@
 ### Simple Conditional
 * **If statement**
 > if(expression)
->     statement
+>
+>>  statement
 
 ### Double Conditional
 * **If... else statement**
 > if(expression)
->     statement
+>
+>> statement
+>
 > else
->     statement
+>
+>> statement
 
 ### Multiple Conditional
 * **If... else if... else statement***
 > if(expression)
->     statement
+>
+>> statement
+>
 > else if(expression)
->     statement
+>
+>> statement
+>
 > else
->     statement
+>
+>> statement
 
 ### Nested Conditional
 > if(expression)
-> {
->     if(expression)
->         statements
 >
-> statements
-> }
-> else
 > {
->     statements
->     if(expression)
->         statements
->     else
->         statements
+>
+>> if(expression)
+>
+>>> statements
+>
+>> statements
+>
+> }
+>
+> else
+>
+> {
+>
+>> statements
+>
+>> if(expression)
+>
+>>> statements
+>
+>> else
+>
+>>> statements
+>
 > }
 
 ### **Switch Statement**
 > switch(expression)
+>
 > {
->     case *constant*:
->         statements
->     case *constant*:
->         statements
+>
+>> case *constant*:
+>
+>>> statements
+>
+>> case *constant*:
+>
+>>> statements
+>
 > ...
->     default:         // optional
->         statements
+>
+>> default:         // optional
+>
+>>> statements
+>
 > }
 
 ## **The Conditional Operator**
