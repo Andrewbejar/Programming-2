@@ -80,7 +80,7 @@
 >
 >>> statements
 >
-> ...
+> ... 
 >
 >> default:         // optional
 >
@@ -88,7 +88,79 @@
 >
 > }
 
-## **The Conditional Operator**
+### **The Conditional Operator**
 > expression ? true_expression : false_expression
 
-## *Iterative Control Structures*
+## **Iterative Control Structures**
+
+### **For Statments**
+### For Statement
+> for(initial statement; test expression; increment/decrement)
+>
+> {
+>> statement
+>
+> }
+>
+
+### Nested For
+> for (initial statement; test expression; increment/decrement)
+>
+> {
+>> for(initial statement; test expression; increment/decrement)
+>
+>> {
+>
+>>> statements
+>
+>> }
+>
+> }
+
+### While
+> while(expression)
+>
+> {
+>
+>> statements
+>
+> }
+
+### Do... While
+> do
+>
+> {
+>
+>> expression
+>
+> }
+> while(expression);
+
+## *Break and Continue*
+### Break
+> for(i=1; i<=10, i++)
+>
+> {
+>> if(i==5)
+>
+>>> break;
+>
+>> printf("%d", i);
+> }
+
+Output:
+1 2 3 4 5
+
+### Continue
+> for(i=1; i<=10; i++)
+>
+> {
+>> if(i%2==0)
+>
+>>> continue;
+>
+>>printf("%d",i);
+>
+> }
+
+Output: 1 3 5 7 9
