@@ -1,3 +1,13 @@
+#### Team members:
+* [Arana Andrew](https://github.com/Andrewbejar/Programming-2)
+* [Pinelo Jason](https://github.com/JasonPinelo95/Programming_2)
+* [Valdez Karla](https://github.com/karlave14/Programming_2)
+
+
+# Flow Control Structures 
+According to von Neumann principles, the program execution is sequential. Each statement is executed one
+after another. There are several statements to change control flow.
+
 # *Control Structures*
 The flow of control through any given function is implemented with three types of control structures:
 * **Sequential** 
