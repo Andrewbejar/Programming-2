@@ -33,6 +33,7 @@ You can choose between two methods of parameter passing to optimize a program ca
 ### **By value**
 With the by-value method, the value of an actual parameter is passed to the subprogram.
 
+    #include <stdio.h> 
     int square(int x); // prototype for function square
     int main()
     {
@@ -60,5 +61,5 @@ With the by-reference method, only a pointer to the value is passed, in which ca
 	printf("Hello world!");
     }
 
-[Subprograms](https://www.d.umn.edu/~gshute/asm/subprograms.xhtml)
-[Parameters in subprograms](https://docs.oracle.com/cd/A58617_01/server.804/a58236/07_subs.htm)
+* [Subprograms](https://www.d.umn.edu/~gshute/asm/subprograms.xhtml)
+* [Parameters in subprograms](https://docs.oracle.com/cd/A58617_01/server.804/a58236/07_subs.htm)
